@@ -1,0 +1,87 @@
+.image {
+    width: 300px;
+    height: 225px;
+}
+
+.map {
+    width: 300px;
+    height: 225px;
+    margin-left: 10px;
+    background-color: grey;
+}
+
+.container {
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 600px;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+    margin: 15px auto 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+}
+
+.title {
+    height: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.address {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.media_container {
+    display: flex;
+}
+
+.property_details_container {
+    background-color: #f2f3ff;
+    border-radius: 5px;
+}
+
+.property_details_container p {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    background-color: #edeff9;
+}
+
+.property_details_container ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.property_details_container li {
+    list-style: none;
+}
+
+.availabilities table{
+    border-collapse: collapse;
+    width: 600px;
+    text-align: left;
+}
+
+.availabilities p {
+    font-weight: bold;
+}
+
+.availabilities th {
+    background-color: #edeff9;
+    width: 280px;
+}
+
+.availabilities td {
+    width: 500px;
+}
+
+.availabilities tr:nth-child(odd) {
+    background-color: #f2f3ff;
+}
+
+
+
